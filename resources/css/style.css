@@ -176,5 +176,9 @@ h3{
 
 .galery>ul>li{
     flex-basis: 250px;
+    flex-grow: 1;
 }
 
+.galery>ul>li img{
+    width: 100%;
+}
