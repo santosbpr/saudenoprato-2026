@@ -177,8 +177,17 @@ h3{
 .galery>ul>li{
     flex-basis: 250px;
     flex-grow: 1;
+    overflow: hidden;
 }
 
 .galery>ul>li img{
     width: 100%;
+    transform: scale(1.15);
+    transition: .4s ease-in;
+}
+
+.galery>ul>li img:hover,
+.galery>ul>li img:active{
+    transform: scale(1.09);
+    filter: blur(2px) contrast(150%) saturate(200%);
 }
